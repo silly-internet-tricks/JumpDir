@@ -267,4 +267,4 @@ I welcome contributions to this project! If you have suggestions, improvements, 
 
 Please ensure your code follows the existing style, and add tests or documentation updates as necessary.
 
-Thank you for contributing!
+Thank you for contributing! 
