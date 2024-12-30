@@ -10,6 +10,11 @@ import (
 	"encoding/json"
 )
 
+//TODO: potentially add another flag to no use the ignore patterns / or maybe to ignore a particular pattern / or a flag to add and remove patterns from the config from the cli using the jd command. potentially also add in a way to parse the json for any list so users can organize patterns as they see fit.
+
+//TODO: possibly add a -c or something flag for continued search that will not stop on the first found search but instead return all matching dirs found.
+
+//TODO: maybe incorporate a markdown generator representing the files system. could be cool idea from boot.dev https://github.com/aymaneallaoui/dirscanner could be under jd -G starting dir found using the jd command
 type Config struct {
 	IgnorePatterns []string `json:"ignore_patterns"`
 	RestrictedDirs []string `json:"restrictedDirs"`

@@ -246,3 +246,25 @@ Please note that `JumpDir` is currently in alpha release and is still being test
    As of this version the installer will now grab a config file and download it to the jumpdir-bin called config.json. this aims to correct the above limitations form the v0.1.0-alpha release. in the config file you can set folders you would like to ignore such as third party application directories and dependencies managers such as node_modules
 
 Thank you for your understanding and support!
+
+## Contributing
+
+I welcome contributions to this project! If you have suggestions, improvements, or bug fixes, please follow these steps:
+
+1. Fork the repository: Click the "Fork" button at the top-right of this page.
+
+2. Clone your fork: Use git clone <your-fork-url> to clone your version of the repository.
+
+3. Create a branch: Create a new branch for your changes with git checkout -b feature-branch-name.
+
+4. Make your changes: Implement the changes or fix the issue you are working on.
+
+5. Commit your changes: Use git commit -m "Describe your changes" to commit your changes.
+
+6. Push to your fork: Push your changes to your fork with git push origin feature-branch-name.
+
+7. Create a pull request: Go to the original repository and click "New Pull Request" to submit your changes.
+
+Please ensure your code follows the existing style, and add tests or documentation updates as necessary.
+
+Thank you for contributing!
